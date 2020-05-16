@@ -2,12 +2,12 @@
   <v-app>
     <v-app-bar
       app
-      color="primary"
+      color="white"
       dark
     >
       <div class="d-flex align-center">
         <v-img
-          alt="Vuetify Logo"
+          alt="Eventv"
           class="shrink mr-2"
           contain
           src="https://cdn.vuetifyjs.com/images/logos/vuetify-logo-dark.png"
@@ -16,7 +16,7 @@
         />
 
         <v-img
-          alt="Vuetify Name"
+          alt="Eventv"
           class="shrink mt-1 hidden-sm-and-down"
           contain
           min-width="100"
@@ -24,7 +24,16 @@
           width="100"
         />
       </div>
+ 
+      <v-progress-linear
+        indeterminate size="64"
+        absolute
+        bottom
+        color="deep-purple accent-4"
+        v-show="isLoading"
+      ></v-progress-linear>
 
+  
       <v-spacer></v-spacer>
 
       <v-btn
@@ -38,23 +47,29 @@
     </v-app-bar>
 
     <v-content>
-      <HelloWorld/>
+      <portfolio/>
     </v-content>
   </v-app>
 </template>
 
 <script>
-import HelloWorld from './components/HelloWorld';
+import portfolio from './components/portfolio';
 
 export default {
   name: 'App',
 
   components: {
-    portfoio,
+    portfolio,
   },
 
   data: () => ({
     //
+    isLoading: true,
   }),
+ mounted() {
+  setTimeout(() => {
+    this.isLoading = false;
+  }, 3000); // toggle after 5 seconds
+}
 };
 </script>
