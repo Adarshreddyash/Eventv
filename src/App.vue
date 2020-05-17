@@ -49,17 +49,22 @@
     <v-content>
       <portfolio/>
     </v-content>
+    <v-content>
+      <stats/>
+    </v-content>
   </v-app>
 </template>
 
 <script>
 import portfolio from './components/portfolio';
+import stats from './components/stats';
 
 export default {
   name: 'App',
 
   components: {
     portfolio,
+    stats,
   },
 
   data: () => ({

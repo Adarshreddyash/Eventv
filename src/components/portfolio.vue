@@ -1,22 +1,57 @@
 <template>
-  <v-container>
- <v-row>
-      <v-col
-        cols="12"
-        sm="4"
-      >
-         <v-img
-          alt="Eventv"
-          class=""
-          contain
-          min-width="167px"
-          src="https://gdgjalandhar.com/img/home.520969e6.svg"
-          width="167px"
-        />
-<p class="display-2">Lowercased text.</p>
-      </v-col>
-    </v-row>
-  </v-container>
+ <v-container class="pa-0">
+        <v-layout wrap align-center justify-center row fill-height >
+           <v-flex xs12 sm5 md3 lg3 xl3 class="text-xs-center" style="margin:30px">
+                <v-img
+                    src="../assets/22.png"
+                    width="100%">
+                    <v-layout
+                        slot="placeholder"
+                        fill-height
+                        align-center
+                        justify-center
+                        ma-0
+                    >
+                    </v-layout>
+                </v-img>
+            </v-flex> 
+            <v-flex xs11 sm8 md8 lg8 xl8 mx-sm-5>
+                <p class="mb-1" style="font-weight: 350;color: #616161;font-size:300%"><b>Join us for digital
+                    <span style="color: #4527A0;">well-being</span>.</b>
+                </p>
+                <p class="mt-0" style="font-size:180%">Eventv Event</p>
+                <p class="" style="font-size:110%">Eventv is an event that focuses on collecting interested developers all over to tackle with the worlds
+                  problems and solve them with the advanced technologies in the world. </p>
+                <p class="" style="">
+                  <v-chip
+                      class="ma-2"
+                       text-color="white"
+                        >
+               <v-avatar left><v-icon>mdi-calendar-month-outline</v-icon>
+                 </v-avatar>
+                <span style="color:#000000;"> November 23, 2020 </span>
+                 </v-chip>
+
+                 <v-chip
+                      class="ma-2"
+                       text-color="white"
+                        >
+               <v-avatar left><v-icon>mdi-map-marker</v-icon>
+                 </v-avatar>
+                <span style="color:#000000;">Warangal</span>
+                 </v-chip>
+                </p>
+
+                <v-btn href="#" target="_blank" class="ma-0 google-font elevation-1" color="#1a73e8" style="text-transform: capitalize;border-radius:5px;color:white">Attend Event</v-btn>
+
+                &nbsp;
+
+                <v-btn href="#" target="_blank" rounded color="cyan" style="text-transform: capitalize;border-radius:5px;text-transform: capitalize;" outlined  class="ml-0" dark>Contact Us</v-btn>
+
+            </v-flex>
+        </v-layout>
+
+    </v-container>
 </template>
 
 <script>
@@ -24,56 +59,7 @@
     name: 'portfolio',
 
     data: () => ({
-      ecosystem: [
-        {
-          text: 'vuetify-loader',
-          href: 'https://github.com/vuetifyjs/vuetify-loader',
-        },
-        {
-          text: 'github',
-          href: 'https://github.com/vuetifyjs/vuetify',
-        },
-        {
-          text: 'awesome-vuetify',
-          href: 'https://github.com/vuetifyjs/awesome-vuetify',
-        },
-      ],
-      importantLinks: [
-        {
-          text: 'Documentation',
-          href: 'https://vuetifyjs.com',
-        },
-        {
-          text: 'Chat',
-          href: 'https://community.vuetifyjs.com',
-        },
-        {
-          text: 'Made with Vuetify',
-          href: 'https://madewithvuejs.com/vuetify',
-        },
-        {
-          text: 'Twitter',
-          href: 'https://twitter.com/vuetifyjs',
-        },
-        {
-          text: 'Articles',
-          href: 'https://medium.com/vuetify',
-        },
-      ],
-      whatsNext: [
-        {
-          text: 'Explore components',
-          href: 'https://vuetifyjs.com/components/api-explorer',
-        },
-        {
-          text: 'Select a layout',
-          href: 'https://vuetifyjs.com/layout/pre-defined',
-        },
-        {
-          text: 'Frequently Asked Questions',
-          href: 'https://vuetifyjs.com/getting-started/frequently-asked-questions',
-        },
-      ],
+      
     }),
   }
 </script>
