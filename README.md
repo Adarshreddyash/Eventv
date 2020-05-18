@@ -1,5 +1,7 @@
 # eventv
 
+[![Build Status](https://travis-ci.com/Adarshreddyash/Eventv.svg?branch=master)](https://travis-ci.com/Adarshreddyash/Eventv)
+
 ## Project setup
 ```
 npm install
