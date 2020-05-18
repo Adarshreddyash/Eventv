@@ -1,6 +1,5 @@
 # eventv
-
-[![Build Status](https://travis-ci.com/Adarshreddyash/Eventv.svg?branch=master)](https://travis-ci.com/Adarshreddyash/Eventv)
+[![GitHub license](https://img.shields.io/github/license/Naereen/StrapDown.js.svg)](https://github.com/Adarshreddyash/Eventv/blob/master/LICENSE)
 
 ## Project setup
 ```
