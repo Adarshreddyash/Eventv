@@ -1,5 +1,5 @@
 <template>
- <v-container fluid class="pa-0 grey lighten-4">
+ <v-container fluid class="pa-0">
         <v-layout wrap align-center justify-center row fill-height >
           <v-flex xs12 sm5 md8 lg8 xl8 class="pa-5">
         <p class="google-font mb-1" style="font-weight: 350;color: #616161;font-size:200%">

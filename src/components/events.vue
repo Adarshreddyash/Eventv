@@ -10,7 +10,7 @@
     >
       <v-layout wrap align-center justify-center row fill-height>
           <v-flex xs12 sm12 md12 lg11 xl2 class="pa-5">
-        <p class="google-font mb-1" style="font-weight: 350;color: #616161;font-size:200%">
+        <p class="mb-1" style="font-weight: 350;color: #616161;font-size:200%">
           <b>
             Our
             <span style="color: #4527A0;">Events&nbsp;</span>

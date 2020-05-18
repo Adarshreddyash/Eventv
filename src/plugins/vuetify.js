@@ -5,6 +5,28 @@ Vue.use(Vuetify);
 
 export default new Vuetify({
     theme: {
-        dark: false,
+
+        themes: {
+            light: {
+                primary: '#fff',
+                secondary: '#424242',
+                accent: '#82B1FF',
+                error: '#FF5252',
+                info: '#2196F3',
+                success: '#4CAF50',
+                warning: '#FFC107',
+
+            },
+            dark: {
+                primary: '#000000',
+                secondary: '#fff',
+                accent: '#82B1FF',
+                error: '#FF5252',
+                info: '#2196F3',
+                success: '#4CAF50',
+                warning: '#FFC107',
+
+            },
+        },
     },
 });

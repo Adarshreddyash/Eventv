@@ -2,27 +2,11 @@
   <v-app>
     <v-app-bar
       app
-      color="white"
-      dark
+      color="transparent"
+      collapse-on-scroll
     >
       <div class="d-flex align-center">
-        <v-img
-          alt="Eventv"
-          class="shrink mr-2"
-          contain
-          src="https://cdn.vuetifyjs.com/images/logos/vuetify-logo-dark.png"
-          transition="scale-transition"
-          width="40"
-        />
-
-        <v-img
-          alt="Eventv"
-          class="shrink mt-1 hidden-sm-and-down"
-          contain
-          min-width="100"
-          src="https://cdn.vuetifyjs.com/images/logos/vuetify-name-dark.png"
-          width="100"
-        />
+       <v-toolbar-title color="secondary" style="font-weight:300px;font-size:35px;">Eventv</v-toolbar-title>
       </div>
  
       <v-progress-linear
@@ -36,14 +20,14 @@
   
       <v-spacer></v-spacer>
 
-      <v-btn
-        href="https://github.com/vuetifyjs/vuetify/releases/latest"
-        target="_blank"
-        text
-      >
-        <span class="mr-2">Latest Release</span>
-        <v-icon>mdi-open-in-new</v-icon>
+       <v-btn @click="switchTheme" icon>
+        <v-icon>{{sicon}}</v-icon>
       </v-btn>
+
+      <v-btn icon>
+        <v-icon>mdi-bell</v-icon>
+      </v-btn>
+      
     </v-app-bar>
 
     <v-content>
@@ -68,6 +52,8 @@ import events from './components/events'
 
 export default {
   name: 'App',
+  inject: ['theme'],
+  
 
   components: {
     portfolio,
@@ -78,7 +64,23 @@ export default {
   data: () => ({
     //
     isLoading: true,
+    sicon:'mdi-theme-light-dark',
   }),
+  methods: {
+    switchTheme() {
+      const switchOff = this.$vuetify.dark ? 'theme--dark' : 'theme--light'
+        , switchOn = this.$vuetify.dark ? 'theme--light' : 'theme--dark'
+        , themed = document.getElementsByClassName( switchOff )
+
+      Array.from(themed).forEach( (el) => {
+        el.classList.remove( switchOff )
+        el.classList.add( switchOn )
+      })
+
+      this.$vuetify.dark = ! this.$vuetify.dark
+      this.theme.isDark = ! this.theme.isDark
+    }
+  },
  mounted() {
   setTimeout(() => {
     this.isLoading = false;
