@@ -1,6 +1,6 @@
 # eventv
 [![GitHub license](https://img.shields.io/github/license/Naereen/StrapDown.js.svg)](https://github.com/Adarshreddyash/Eventv/blob/master/LICENSE)
-
+[![Maintenance](https://img.shields.io/badge/Maintained%3F-yes-green.svg)](https://GitHub.com/Adarshreddyash/Eventv/graphs/commit-activity)
 ## Project setup
 ```
 npm install
