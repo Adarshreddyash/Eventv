@@ -49,15 +49,22 @@
     <v-content>
       <portfolio/>
     </v-content>
+   
     <v-content>
       <stats/>
     </v-content>
+     
+     <v-content>
+      <events/>
+    </v-content>
   </v-app>
+
 </template>
 
 <script>
 import portfolio from './components/portfolio';
 import stats from './components/stats';
+import events from './components/events'
 
 export default {
   name: 'App',
@@ -65,6 +72,7 @@ export default {
   components: {
     portfolio,
     stats,
+    events
   },
 
   data: () => ({
@@ -74,7 +82,7 @@ export default {
  mounted() {
   setTimeout(() => {
     this.isLoading = false;
-  }, 3000); // toggle after 5 seconds
+  }, 3000); // toggle after 3 seconds
 }
 };
 </script>

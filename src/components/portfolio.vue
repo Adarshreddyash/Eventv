@@ -1,5 +1,13 @@
 <template>
  <v-container class="pa-0">
+    <v-lazy
+        v-model="isActive"
+        :options="{
+          threshold: .5
+        }"
+        min-height="200"
+        transition="fade-transition"
+      >
         <v-layout wrap align-center justify-center row fill-height >
            <v-flex xs12 sm5 md3 lg3 xl3 class="text-xs-center" style="margin:30px">
                 <v-img
@@ -8,7 +16,7 @@
                     <v-layout
                         slot="placeholder"
                         fill-height
-                        align-center
+                        align-center 
                         justify-center
                         ma-0
                     >
@@ -50,14 +58,14 @@
 
             </v-flex>
         </v-layout>
-
+ </v-lazy>
     </v-container>
 </template>
 
 <script>
   export default {
     name: 'portfolio',
-
+    
     data: () => ({
       
     }),
