@@ -59,7 +59,7 @@ import portfolio from './components/portfolio';
 import stats from './components/stats';
 import events from './components/events';
 import team from './components/team';
-
+import footer from './components/footer'
 export default {
   name: 'App',
   inject: ['theme'],
@@ -70,6 +70,7 @@ export default {
     stats,
     events,
     team,
+    footer,
   },
 
   data: () => ({
