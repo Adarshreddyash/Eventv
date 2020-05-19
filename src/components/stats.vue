@@ -57,7 +57,7 @@
           <v-flex xs6 lg6>
             <p class="google-font mb-0" style="font-weight: 350;color: #616161;font-size:300%">
               <b>
-                <span style="color: #4527A0;" >220+</span>
+                <span style="color: #4527A0;" >600+</span>
               </b>
             </p>
             <p class="google-font">Attendees</p>
@@ -66,7 +66,7 @@
           <v-flex xs6 lg6>
             <p class="google-font mb-0" style="font-weight: 350;color: #616161;font-size:300%">
               <b>
-                <span style="color: #4527A0;">2+</span>
+                <span style="color: #4527A0;">8+</span>
               </b>
             </p>
             <p class="google-font">Workshops</p>
@@ -74,7 +74,7 @@
           <v-flex xs6 lg6>
             <p class="google-font mb-0" style="font-weight: 350;color: #616161;font-size:300%">
               <b>
-                <span style="color: #4527A0;">7+</span>
+                <span style="color: #4527A0;">10+</span>
               </b>
             </p>
             <p class="google-font">Sessions</p>
@@ -82,7 +82,7 @@
           <v-flex xs6 lg6>
             <p class="google-font mb-0" style="font-weight: 350;color: #616161;font-size:300%">
               <b>
-                <span style="color: #4527A0;">10+</span>
+                <span style="color: #4527A0;">6+</span>
               </b>
             </p>
             <p class="google-font">Speakers</p>

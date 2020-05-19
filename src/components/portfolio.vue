@@ -50,7 +50,7 @@
                  </v-chip>
                 </p>
 
-                <v-btn href="#" target="_blank" class="ma-0 google-font elevation-1" color="#1a73e8" style="text-transform: capitalize;border-radius:5px;color:white">Attend Event</v-btn>
+                <v-btn href="#" target="_blank" class="ma-0 elevation-1" color="#4527A0" style="text-transform: capitalize;border-radius:5px;color:white">Attend Event</v-btn>
 
                 &nbsp;
 

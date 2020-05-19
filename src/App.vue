@@ -41,14 +41,24 @@
      <v-content>
       <events/>
     </v-content>
-  </v-app>
 
+    <v-content>
+      <team/>
+    </v-content>
+
+    <v-content>
+      <footer/>
+    </v-content>
+
+
+  </v-app>
 </template>
 
 <script>
 import portfolio from './components/portfolio';
 import stats from './components/stats';
-import events from './components/events'
+import events from './components/events';
+import team from './components/team';
 
 export default {
   name: 'App',
@@ -58,7 +68,8 @@ export default {
   components: {
     portfolio,
     stats,
-    events
+    events,
+    team,
   },
 
   data: () => ({
