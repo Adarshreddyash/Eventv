@@ -47,7 +47,7 @@
     </v-content>
 
     <v-content>
-      <footer/>
+      <foo/>
     </v-content>
 
 
@@ -59,7 +59,7 @@ import portfolio from './components/portfolio';
 import stats from './components/stats';
 import events from './components/events';
 import team from './components/team';
-import footer from './components/footer'
+import foo from './components/foo'
 export default {
   name: 'App',
   inject: ['theme'],
@@ -70,7 +70,7 @@ export default {
     stats,
     events,
     team,
-    footer,
+    foo,
   },
 
   data: () => ({
