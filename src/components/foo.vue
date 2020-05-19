@@ -5,7 +5,7 @@
       cols="12"
     >
       {{ new Date().getFullYear() }} — <strong>Eventv | Team Vengix</strong>
-      <a class="secondary--text" style="margin:5px;text-decoration:none" href="">fork on <v-icon size="19">mdi-github</v-icon></a>
+      <a class="secondary--text" style="margin:5px;text-decoration:none" href="https://github.com/Adarshreddyash/Eventv">fork on <v-icon size="19">mdi-github</v-icon></a>
     </v-col>
   </v-footer>
 </template>
