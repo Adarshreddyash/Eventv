@@ -33,10 +33,7 @@ npm run serve
 ### Compiles and minifies for production
 ```
 npm run build
-```### Installing
-
-A step by step series of examples that tell you how to get a development env running
-
+```
 ### Lints and fixes files
 ```
 npm run lint
@@ -45,4 +42,4 @@ npm run lint
 ### Customize configuration
 See [Configuration Reference](https://cli.vuejs.org/config/).
 
-
+### Please put a star if you like this Project.
