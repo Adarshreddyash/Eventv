@@ -18,7 +18,7 @@
         </p>
         <p
           class="mt-3"
-        >Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book.</p>
+        >Team Vengix is here with a wonderful template for Web Developers.Our team always passionately explores this world of Web.We put our heart and soul into every piece of work that we release.We elevate by recreating ourselves everyday.</p>
           </v-flex>
 
         <v-flex xs6 sm3 md2 lg2 mx-sm-5 class="text-xs-center" style="text-align:center" v-for="k in team"  v-bind:key="k">
