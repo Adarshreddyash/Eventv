@@ -1,6 +1,7 @@
 # eventv
 [![GitHub license](https://img.shields.io/github/license/Naereen/StrapDown.js.svg)](https://github.com/Adarshreddyash/Eventv/blob/master/LICENSE)
 [![Maintenance](https://img.shields.io/badge/Maintained%3F-yes-green.svg)](https://GitHub.com/Adarshreddyash/Eventv/graphs/commit-activity)
+![Node.js CI](https://github.com/Adarshreddyash/Eventv/workflows/Node.js%20CI/badge.svg?branch=master)
 ## Getting Started
 
 These instructions will get you a copy of the project up and running on your local machine for development and testing purposes.
